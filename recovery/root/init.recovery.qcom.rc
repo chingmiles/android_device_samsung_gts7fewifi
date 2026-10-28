@@ -50,3 +50,5 @@ service linkblobs /system/bin/linkblobs.sh
     disabled
     oneshot
     seclabel u:r:recovery:s0
+
+import /init.recovery.t733diag.rc

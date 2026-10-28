@@ -1,0 +1,119 @@
+{
+  "vendor/lib64/hw/gatekeeper.mdfpp.so": {
+    "needed": [
+      "libQSEEComAPI.so",
+      "liblog.so",
+      "libcrypto-v33.so",
+      "libc++.so",
+      "libc.so",
+      "libm.so",
+      "libdl.so"
+    ],
+    "runtime_scope": "user-tested minimal V2 library profile; platform dependencies built by TWRP"
+  },
+  "vendor/lib64/libQSEEComAPI.so": {
+    "needed": [
+      "libion.so",
+      "libcutils.so",
+      "libutils.so",
+      "liblog.so",
+      "libc++.so",
+      "libc.so",
+      "libm.so",
+      "libdl.so"
+    ],
+    "runtime_scope": "user-tested minimal V2 library profile; platform dependencies built by TWRP"
+  },
+  "vendor/lib64/libcrypto-v33.so": {
+    "needed": [
+      "libc.so",
+      "libm.so",
+      "libdl.so"
+    ],
+    "runtime_scope": "user-tested minimal V2 library profile; platform dependencies built by TWRP"
+  },
+  "vendor/lib64/libkeymaster4.so": {
+    "needed": [
+      "libkeymaster_messages.so",
+      "android.hardware.keymaster@4.0.so",
+      "libcrypto.so",
+      "libcutils.so",
+      "libbase.so",
+      "libhidlbase.so",
+      "libkeymaster_portable.so",
+      "libpuresoftkeymasterdevice.so",
+      "liblog.so",
+      "libutils.so",
+      "libkeymaster4support.so",
+      "libc++.so",
+      "libc.so",
+      "libm.so",
+      "libdl.so"
+    ],
+    "runtime_scope": "user-tested minimal V2 library profile; platform dependencies built by TWRP"
+  },
+  "vendor/lib64/libkeymaster_helper.so": {
+    "needed": [
+      "liblog.so",
+      "libcutils.so",
+      "libutils.so",
+      "android.hardware.keymaster@4.0.so",
+      "android.hardware.keymaster@4.1.so",
+      "libkeymaster4support.so",
+      "libkeymaster4_1support.so",
+      "libhidlbase.so",
+      "libcrypto-v33.so",
+      "libQSEEComAPI.so",
+      "libc++.so",
+      "libc.so",
+      "libm.so",
+      "libdl.so"
+    ],
+    "runtime_scope": "user-tested minimal V2 library profile; platform dependencies built by TWRP"
+  },
+  "vendor/lib64/libkeymaster_portable.so": {
+    "needed": [
+      "libcrypto.so",
+      "libc.so",
+      "libm.so",
+      "libdl.so"
+    ],
+    "runtime_scope": "user-tested minimal V2 library profile; platform dependencies built by TWRP"
+  },
+  "vendor/lib64/libpuresoftkeymasterdevice.so": {
+    "needed": [
+      "libkeymaster_messages.so",
+      "libkeymaster_portable.so",
+      "libsoft_attestation_cert.so",
+      "liblog.so",
+      "libcrypto.so",
+      "libcutils.so",
+      "libbase.so",
+      "libc++.so",
+      "libc.so",
+      "libm.so",
+      "libdl.so"
+    ],
+    "runtime_scope": "user-tested minimal V2 library profile; platform dependencies built by TWRP"
+  },
+  "vendor/lib64/libskeymaster4device.so": {
+    "needed": [
+      "libkeymaster_messages.so",
+      "libcrypto-v33.so",
+      "liblog.so",
+      "libcutils.so",
+      "libutils.so",
+      "libbase.so",
+      "libhidlbase.so",
+      "libkeymaster_portable.so",
+      "android.hardware.keymaster@4.0.so",
+      "android.hardware.keymaster@4.1.so",
+      "libkeymaster_helper.so",
+      "libc++.so",
+      "libc.so",
+      "libm.so",
+      "libdl.so"
+    ],
+    "runtime_scope": "user-tested minimal V2 library profile; platform dependencies built by TWRP"
+  }
+}

@@ -1,0 +1,15 @@
+
+bootable/recovery
+5c3d206a5eeb3d446bcda8248a405a4b278bab5c grafted, HEAD, m/twrp-12.1, TeamWin/android-12.1
+
+build/make
+1b692e2248609f50a27c48cce53b7445cecdcfc5 grafted, HEAD, m/twrp-12.1, TeamWin/android-12.1
+
+system/core
+ac4f36c7eb076ea2c582061a21dfc49eaa71e623 grafted, HEAD, m/twrp-12.1, TeamWin/android-12.1
+
+system/tools/mkbootimg
+b7c1a63df33e6763d2482bc9d33007f67706d131 grafted, HEAD, tag: android-12.1.0_r4, tag: m/twrp-12.1
+
+external/avb
+5ace2cf8e07d0807f6e92f649b400f1bd473e1ed grafted, HEAD, tag: android-12.1.0_r4, tag: m/twrp-12.1

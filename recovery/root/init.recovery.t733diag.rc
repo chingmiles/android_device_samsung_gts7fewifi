@@ -1,0 +1,9 @@
+on boot
+    start t733diag
+
+service t733diag /system/bin/sh /system/bin/t733diag.sh
+    user root
+    group root
+    disabled
+    oneshot
+    seclabel u:r:recovery:s0

@@ -1,0 +1,22 @@
+{
+  "profile": "T733-LOS23.2-CRYPTO-V2",
+  "validation_date": "2026-10-28",
+  "validation_source": "user reports successful TWRP startup and Data decryption",
+  "tested_rom": "lineage-23.2-20260223-UNOFFICIAL-gts7fewifi",
+  "tested_archive_sha256": "edda95e00e1fe037b0940f6c4afe3e4cf4cc9f77c151c6ca16fac5db8b613b4c",
+  "tested_image_sha256": "e46ae1eef171998bd2fa72984a726a61944d0270619f5455863db0ee80216f4d",
+  "reference_build_id": "T733-CRYPTO-STARTUP-V2-UNTESTED",
+  "main_binary": "same compiled main as EXPERIMENTAL-1; V2 corrects ramdisk library selection",
+  "binary_status": "V2 reference user-tested; new source builds require regression testing",
+  "not_claimed": [
+    "all ROMs",
+    "all credentials and multi-user configurations",
+    "byte-identical rebuild without full pinned platform manifest",
+    "full boot/vendor_boot/super build support"
+  ],
+  "prebuilt_provenance": {
+    "kernel_dtb_dtbo_modules": "T733ZCS9DYE1 stock firmware",
+    "hardware_crypto_libraries": "specified LineageOS 23.2 vendor image",
+    "framework_support_libraries": "baseline or TWRP android-12.1 build, not newer LineageOS overrides"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "release": "5.4.254-qgki-1570070-abT733ZCS9DYE1",
+  "vermagic": "5.4.254-qgki-1570070-abT733ZCS9DYE1 SMP preempt mod_unload modversions aarch64",
+  "requested": [
+    "sec_tsp_log",
+    "sec_common_fn",
+    "sec_cmd",
+    "focaltech_ts_ft820x"
+  ],
+  "load_order": [
+    "sec_tsp_log",
+    "sec_common_fn",
+    "sec_cmd",
+    "focaltech_ts_ft820x"
+  ],
+  "dependencies": {
+    "sec_tsp_log": [],
+    "sec_common_fn": [
+      "sec_tsp_log"
+    ],
+    "sec_cmd": [
+      "sec_tsp_log"
+    ],
+    "sec_secure_touch": [],
+    "sec_tclm_v2": [
+      "sec_tsp_log"
+    ],
+    "sec_tsp_dumpkey": [
+      "sec_common_fn",
+      "sec_tsp_log"
+    ],
+    "focaltech_ts_ft820x": [
+      "sec_cmd",
+      "sec_tsp_log",
+      "sec_common_fn"
+    ]
+  },
+  "sha256": {
+    "sec_tsp_log.ko": "916ee4e42ac72e3950e49434105ae44590674949be12a4534ec575ef2566d1df",
+    "sec_common_fn.ko": "4846d6c8f15376599e789cf3b5d5211e0324aff0326ffa2bf6843ceda68bb2c6",
+    "sec_cmd.ko": "92e402f7dff8a7be5d47d47d499ea304b3bb9ca48ababbb18943a3021e05327d",
+    "sec_secure_touch.ko": "ee5447dee55daf25df643446e667954064194db5a95add8685997368126af9c4",
+    "sec_tclm_v2.ko": "b576e6448cd78861a27b2844e13f33312027d1c9c42eddaff88550cf5cba2dd3",
+    "sec_tsp_dumpkey.ko": "389463e6ffee8f926f287cb2d75dc91c6d2ca55b51cbda457a00736f565ced3d",
+    "focaltech_ts_ft820x.ko": "bd9440d6343f591cfee2fad765b4d805fe9d6d8e8f1199c83b52fb91afd7bfca",
+    "modules.dep": "c6944c5e184f5d22ee9f8569afde19e28ef6cac9428eca3d980ac2dee6549eb5",
+    "modules.alias": "9b639ae9ed5e8626f77b4f5e17051241769cba05bc203420ff52f997f071c49b",
+    "modules.softdep": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "modules.load": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modules.load.recovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}
